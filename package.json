@@ -1,0 +1,13 @@
+{
+	"name": "@usertiff/filler.js",
+	"version": "1.0.0",
+	"main": "filler.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DevchamploO/filler.js.git"
+	},
+	"author": {
+		"name": "Tiffany Grevious"
+	},
+	"homepage": ""
+}
