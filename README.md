@@ -1,38 +1,24 @@
-# Filler.js ![npm (scoped)](https://img.shields.io/npm/v/@usertiff/filler.js.svg)
+Filler is an ultra lightweight plugin that creates Lorem Ipsum text inside of HTML elements. It is written in vanilla JavaScript to make it easy to use with no depencies. No initalizing or setup - it works perfectly straight out of the box. 
 
-`Filler.js` is a light weight and easy to use JavaScript plugin that makes adding Lorem Ipsum text to HTML quick and painless. No copy pasting or searching online. It's perfect for website templates, mockups, or anywhere you might need gibberish text.
+## Getting Started
 
-## Installation
+### Installation
 
-Install via npm:
+Install via Package Managers
 
-`$ npm i @usertiff/filler.js --save`
-
-or yarn:
-
-`$yarn add @usertiff/filler.js`
-
-or you can download this repo and add `filler.js` or `filler.min.js` into your project folder.
-
-## Usage
-
-To use filler.js add a script tag at the bottom of the body tag.
-
-```html
-<body>
-   /*content here...*/
-
-   <script src="./filler.js"></script>
-</body>
+```
+//npm
+$ npm install @usertiff/filler.js
+//yarn
+$yarn add @usertiff/filler.js
 ```
 
-Or within appropiate JavaScript files
+`const filler = require('./filler')` will load filler into your javascript file.
 
-```javascript
-const filler = require('./filler');
-```
+Install via source files after download
+`<script src="../filler.js"></script>`
 
-### The Magic
+### Usage
 
 To add text to an element add the `filler` class. Finally add the data attribute `data-lorem` assigned with the desired word count to the element. If the element already has text then filler.js will append the lorem ipsum. That's it!
 
@@ -41,7 +27,3 @@ Example:
 ```html
 <p class="filler" data-lorem="50"><p>
 ```
-
-## License
-
-Filler.js is licensed under the MIT license. (http://opensource.org/licenses/MIT)
